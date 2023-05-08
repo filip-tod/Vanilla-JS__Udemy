@@ -10,8 +10,8 @@ console.log(speedLimitKm);
 
 //Task 3: Using JS arithmetic operations, calculate the minimum speed in miles/h which would result in a hefty fine and store it inside a variable  speedFineMiles.
 var speedFineMiles = speedLimitMiles * 1.1 + 2;
-console.log(speedFineMiles);
+console.log(speedFineMiles.toFixed(2));
 
 //Task 4: Using JS arithmetic operations, calculate the minimum speed in km/h which would result in a hefty fine and store it inside a variable  speedFineKm.
 var speedFineKm = speedFineMiles * 1.61;
-console.log(speedFineKm);
+console.log(speedFineKm.toFixed(3));

@@ -12,4 +12,4 @@ LivesLeft = 2;
 console.log(LivesLeft);
 
 //konstante const
-const firstName = 'John';
+var firstName = 'John'; // const je ali sam je morao promijeniti zbog drugog fajla jer je globalni
