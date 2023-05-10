@@ -1,5 +1,7 @@
 var x = 0;
-while(x < 5){
+do{
     console.log(x);
     x ++;
-}
+}while(x < 5)
+
+
